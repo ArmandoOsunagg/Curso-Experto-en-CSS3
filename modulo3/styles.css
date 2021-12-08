@@ -1,0 +1,25 @@
+a,.container{
+    color: red;
+}
+
+.container a{
+    color: blue;
+}
+
+.container>a{
+    color: green;
+}
+
+
+nav.container.title2 .title{
+    background-color: pink;
+}
+
+h2+p{
+    background-color: blueviolet;
+}
+
+h3~p{
+    background-color: crimson;
+    color: white;
+}

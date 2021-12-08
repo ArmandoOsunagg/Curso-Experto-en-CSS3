@@ -1,0 +1,49 @@
+/* Selector de tipo */
+nav{
+    background-color: aquamarine;
+}
+
+/* Selector de clase */
+.titular{
+    background-color: blueviolet;
+    color: white;
+}
+
+.titular-borde{
+    border: 2px solid red;
+}
+.titular-borde2{
+    border: 2px solid violet;
+}
+.titular-borde3{
+    border: 2px solid blue;
+}
+
+h2[id]{
+    font-size: 5px;
+}
+
+[href]{
+    text-decoration: none;
+}
+
+[href="https://udemy.com"]{
+    color: green;
+}
+
+[href^="https"]{
+    color: red;
+    font-size: 20px;
+}
+
+[href$=".mx"]{
+    color: yellow;
+    background-color: black;
+    font-size: 3px;
+}
+
+[href*="www"]{
+    color: white;
+    background-color: red;
+    font-size: 40px;
+}
