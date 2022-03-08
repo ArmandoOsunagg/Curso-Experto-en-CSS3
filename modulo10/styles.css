@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 70%;
+    height: 500px;
+    margin: 30px auto;
+    background: steelblue;
+    background-image:
+     linear-gradient(red 40%,blue );
+}
+
+.header{
+    padding: 0.1px;
+    height: 600px;
+    background-image:linear-gradient(rgba(255, 0, 0, 0.623),rgba(0, 0, 255, 0.486)), url(img/escritorio.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+.title{
+    font-size: 50px;
+    color: white;
+    margin-top: 200px;
+    text-align: center;
+}

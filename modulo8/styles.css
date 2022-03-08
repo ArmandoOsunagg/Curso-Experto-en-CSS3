@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    color:rgb(255,255,255);
+    background-color: #aaccbb;
+    padding: 30px;
+    background: #0a1045 ;
+
+}
+
+
+.title{
+   text-align: center; 
+}
