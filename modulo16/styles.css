@@ -1,0 +1,138 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.link{
+    display: block;
+    
+}
+
+.enlace:link{
+    background: burlywood;
+    color: #000;
+}
+
+.enlace:visited{
+    background: crimson;
+}
+
+
+.enlace:hover{
+    padding: 40px 20px;
+    transition: .3s;
+}
+
+.enlace:active{
+    background: steelblue;
+    color:#fff;
+}
+
+
+.event{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: rebeccapurple;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.event:active{
+    padding:25px;
+}
+
+
+#objective{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color:blue ;
+    transition: .3s;
+}
+
+#objective:target{
+    margin-left: 160px;
+}
+
+
+.form{
+    width: 80%;
+    margin: 30px auto;
+    background-color: rgb(209, 209, 209);
+    box-shadow:  0 0 5px rgba(0,0,0,.5);
+    padding: 30px;
+}
+
+.form:focus-within{
+    background-color: blue;
+}
+
+.form__title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input{
+    display:block ;
+}
+
+input[type="text"],input[type="email"]{
+    width: 100%;
+    padding: 14px 6px;
+    margin-bottom: 20px;
+    border: none;
+    /* outline: none; */
+
+}
+
+input[type="checkbox"]{
+    display:inline-block ;
+}
+
+
+input:focus{
+    background-color: cornflowerblue;
+}
+
+
+h2:focus{
+    background-color: fuchsia;
+    color: white;
+}
+
+
+input[type="checkbox"]:checked + label {
+    background-color: aquamarine;
+    color: red; 
+}
+
+
+
+h4{
+    background-color: black;
+    color: white;
+    margin: 30px;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+
+h4:not(.title){
+    background-color: darkgreen;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+h4:not(:hover):not(.title){
+    background-color: black;
+    color: black;
+}
