@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Tiro+Devanagari+Sanskrit:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    min-height: 200vh;
+}
+
+.hero{
+    height: 100vh;
+    background-image: linear-gradient(180deg, #820e9480 0%,#2a68d480 100%),url("buildings.jpg");
+    background-position:center;
+    background-size: cover;
+    padding-top: 0.1px;
+}
+
+.h_container{
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+}
+
+.h_title{
+  font-size: 4rem;
+}
+
+.h_footer{
+ font-size: 1rem;
+ font-weight: 300;
+ margin: 20px 0;
+}
+
+.h_button{
+ background-color: cornflowerblue;
+ color: white;
+ text-decoration: none;
+ padding: 10px 15px;
+ border-radius: 7px;
+ font-weight: 900;
+}
+
+.h_button:hover{
+    background-color: white;
+    color: cornflowerblue;
+}
+
+.h_wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.section{
+    height: 100vh;
+    padding-top: 70px;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+
+.section:nth-of-type(1){
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+.section:nth-of-type(2){
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+
+.section:nth-of-type(3){
+    background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+}
+
+
+.nav{
+    background-color: darkviolet;
+    height: 70px;
+    padding: 0 40px;
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 0 20px;
+    display: inline-block;
+}
+
+.link:hover{
+    background-color: white;
+    color: darkviolet;
+    height: 100%;
+}
+
